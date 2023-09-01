@@ -1,0 +1,56 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  outline: none!important;
+  box-sizing: border-box!important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+
+/* body */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+  row-gap: 1em;
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e6ee;
+  padding: 0em!important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 1.5em;
+}
+
+/* mo margin elements */
+
+i,
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px!important;
+}
+
+.Lit{
+  background-color: #fff;
+  color: #0b161b;
+}
+
+.Dark{
+  background-color: #0b161b;
+  color: #f4f4f4;
+}
+
+button{
+  box-shadow: 0 0 16px #a4a4a4;
+  padding: 1em;
+  border-radius: 10px;
+  width: 5em;
+}
